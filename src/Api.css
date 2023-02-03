@@ -1,0 +1,47 @@
+.main {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   width: 100%;
+   padding: 0.5rem;
+   background-color: #F7F3F5;
+}
+.main li{
+    list-style: none;
+    font-size: 0.9rem;
+    width: 60%;
+    margin-left: 5%;
+}
+
+.hidden{
+   display: grid;
+   grid-template-columns: 50% 50%;
+   padding: 18px;
+   width: 97%;
+   background-color: #bda4ab;
+}
+
+.hidden li{
+    list-style: none;
+    font-size: 0.9rem;
+}
+
+@media screen and (max-width:650px) {
+    .main{
+      display: grid;
+      grid-template-columns: 50% 50%;
+    }
+    .main li{
+        font-size: 0.8rem;
+    }
+    .hidden{
+      width: 90%;
+    }
+    .hidden li{
+        font-size: 0.8rem;
+    }
+}
+
+
+
